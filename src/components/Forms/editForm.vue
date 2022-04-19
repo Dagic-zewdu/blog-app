@@ -2,6 +2,7 @@
   <BasicLayout :loading="loading" :error="error">
     <Form
       v-if="blog"
+      :id="blog.id"
       :author="blog.author"
       :title="blog.title"
       :post="blog.post"

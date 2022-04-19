@@ -6084,6 +6084,11 @@ randombytes@^2.1.0:
   dependencies:
     safe-buffer "^5.1.0"
 
+randomized-string@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/randomized-string/-/randomized-string-1.2.6.tgz#24d77ee17b4c1bb651c13d4923129aef8d01aa35"
+  integrity sha512-ar8NzlrJTB1LkWN1v7E/KTwUbMeJ9Uk7wHoZwOzK5oHyD+ub85rEbEiZ976rttsNfxNn85t11wviCtVRtewfbg==
+
 range-parser@^1.2.1, range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.npmmirror.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"

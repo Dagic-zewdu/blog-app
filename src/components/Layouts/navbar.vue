@@ -1,11 +1,15 @@
 <template>
-  <header class="bg-light px-8">
+  <header class="bg-white px-8">
     <nav
-      class="flex flex-wrap items-center content-center justify-between w-full py-6 md:py-0 px-4 text-lg text-gray-700 bg-light"
+      class="flex flex-wrap items-center content-center justify-between w-full py-6 md:py-0 px-4 text-lg text-gray-700 bg-white"
     >
       <div>
         <router-link to="/">
-          <h1 class="text-4xl">Blog app</h1>
+          <h1 class="text-4xl">
+            <i class="fa-solid fa-pen-to-square"></i>
+
+            Blog<b>It</b>
+          </h1>
         </router-link>
       </div>
       <i @click="handleToggle" class="fas fa-bars h-6 w-6 cursor-pointer md:hidden block"></i>
@@ -15,7 +19,7 @@
       >
         <ul
           v-show="user"
-          class="pt-4 text-base bg-light text-gray-700 md:flex content-center md:justify-between md:pt-0"
+          class="pt-4 bg-white text-base text-gray-700 md:flex content-center md:justify-between md:pt-0"
         >
           <li>
             <router-link class="md:p-4 py-2 block hover:text-purple-400" to="/myblog">
@@ -24,7 +28,7 @@
           </li>
           <li>
             <router-link class="md:p-4 py-2 block hover:text-purple-400" to="/writeblog">
-              <i class="fa-solid fa-pen-to-square"></i>
+              <i class="fa-solid fa-pen-to-square text-1xl"></i>
             </router-link>
           </li>
           <li>
@@ -59,7 +63,7 @@
         </ul>
         <ul
           v-show="!user"
-          class="pt-4 text-base bg-light text-gray-700 md:flex content-center md:justify-between md:pt-0"
+          class="pt-4 bg-white text-base text-gray-700 md:flex content-center md:justify-between md:pt-0"
         >
           <li class="content-center">
             <GoogleSignIn :setUser="setUser" />

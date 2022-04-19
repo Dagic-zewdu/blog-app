@@ -24,8 +24,8 @@ export default {
   },
   async created() {
     try {
-      this.user = await getAuthor();
-      console.log(this.user);
+      const user = await getAuthor();
+      this.user = user;
       this.loading = false;
     } catch (err) {
       this.error = err.message;

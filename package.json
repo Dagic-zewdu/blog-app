@@ -16,6 +16,7 @@
     "json-server": "^0.17.0",
     "npm": "^8.7.0",
     "postcss": "^8",
+    "randomized-string": "^1.2.6",
     "tailwindcss": "^3",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",

@@ -1,12 +1,29 @@
 {
-  "authors": [
-    {
-      "id": "100946272316874885279",
-      "email": "dagi.zewdu.dz@gmail.com",
-      "name": "Dagi Zewdu",
-      "image": "https://lh3.googleusercontent.com/a-/AOh14GgWjckrgquHG9_oi5lNUluaAwftovFgByV21c29Sw=s96-c",
-      "date": 1650381324990
-    }
-  ],
-  "blogs": []
+    "authors": [
+        {
+            "id": "100946272316874885279",
+            "email": "dagi.zewdu.dz@gmail.com",
+            "name": "Dagi Zewdu",
+            "image": "https://lh3.googleusercontent.com/a-/AOh14GgWjckrgquHG9_oi5lNUluaAwftovFgByV21c29Sw=s96-c",
+            "date": 1650381324990
+        }
+    ],
+    "blogs": [
+        {
+            "author": "100946272316874885279",
+            "post": "Ethiopia is one of the poorest countries in the world, with a quarter of Ethiopians living below the poverty line. The majority of the population lives in rural areas and works in agriculture. Many of these farmers do not have access to safe drinking water, healthcare, education, or modern farming technology. In addition to these challenges, they are also exposed to the risk of their crops being destroyed by droughts, floods, or other natural disasters. \n\nTourism is largely a new industry for Ethiopia. For a long time, tourism was never a priority, and the country lacked the infrastructure needed to accommodate visitors. In recent years, the government has begun promoting tourism as part of its plan to combat poverty and encourage economic development. Ethiopia is starting to see results from these efforts, and in 2018, the country experienced the largest tourism growth rate in the world.\n\nThere is no shortage of reasons to visit Ethiopia. The landscapes are breathtaking, the food is delicious, and coffee, which originated in Ethiopia, is abundant.  It is a diverse country with a rich history, and the site of many archaeological discoveries that give insights into the ancient past. The time is ripe to explore Ethiopia before everyone else decides to go there.\n\nThe best time to visit Ethiopia and how to get there\nThere are a number of airlines that fly to Addis Ababa Bole International airport. Most tourists are eligible for the Visa on Arrival, which is granted at the airport in Addis. You can also apply for a visa online in advance. A single-entry visa costs $52 for 30 days or $72 for 90 days.\n\nIt is generally recommended to visit during the dry season, which runs from October to May. I was there during July, right in the middle of rainy season. The skies were mostly overcast and there were rain showers on and off throughout the trip, but nothing that derailed our plans.",
+            "title": "Why visit Ethiopia?",
+            "image": "https://www.heartmybackpack.com/wp-content/uploads/2019/09/acacia-trees-and-village-huts-1.jpg.webp",
+            "date": 1650395940918,
+            "id": 1
+        },
+        {
+            "author": "100946272316874885279",
+            "post": "  There are so few mountain ranges on Earth that have slipped under the radar as much as the Simien Mountains of Ethiopia. These highlands are a celebration of eroded volcanic cores, raging rivers, powerful peaks and breathtaking views that stretch as far as the eye can see. While trekking enthusiasts are busy debating between the Atlas Mountains and Mt. Kilimanjaro, do yourself a favor and enjoy the peace and serenity of the Simien Mountains.\n\n  Ethiopia is one of only three countries in the world (Colombia & Kenya being the others) that can grow coffee all year around. While you won’t find many indie coffee shops in Addis Ababa, you will find some of the world’s best cup of Joe. So if you prefer taste over exposed bricks and wood beams, venture to the heart of coffee country for your next caffeine fix.",
+            "title": "Mountains, glorious mountains",
+            "image": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2016/04/ethiopia-matthew-goulding.jpg",
+            "date": 1650396222012,
+            "id": 2
+        }
+    ]
 }

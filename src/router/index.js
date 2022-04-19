@@ -26,19 +26,16 @@ const routes = [
     path: '/blog/:id',
     name: 'blogDetails',
     component:BlogDetails,
-    props:true
   },
   {
     path: '/writeblog',
     name: 'writeBlog',
     component:AddBlog,
-    props:true
   },
  {
     path: '/editblog/:id',
     name: 'editBlog',
     component:EditBlog,
-    props:true
   }  
 ]
 
