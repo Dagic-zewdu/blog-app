@@ -5,6 +5,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import AddBlog from "../components/Forms/addForm.vue"
 import EditBlog from "../components/Forms/editForm.vue"
+import MyBlogs from '../components/Blogs/myblogs.vue'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/editblog/:id',
     name: 'editBlog',
     component:EditBlog,
+  },
+  {
+    path: '/myblog',
+    name: 'myblog',
+    component:MyBlogs,
   }  
 ]
 

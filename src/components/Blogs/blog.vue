@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!suspense" style="bg-white mt-10 rgb(245 245 245)">
+  <div v-if="!suspense" style="bg-white mt-5 rgb(245 245 245)">
     <div
       class="space-y-4 bg-white mt-10 lg:grid lg:grid-cols-3 lg:items-start lg:gap-6 lg:space-y-0"
       style="cursor: auto"

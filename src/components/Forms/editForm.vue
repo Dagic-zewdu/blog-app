@@ -34,6 +34,8 @@ export default {
       this.blog = await getBlog(this.id);
       this.loading = false;
     } catch (err) {
+      this.loading = false;
+      console.log(err);
       this.error = err.message;
     }
   },
