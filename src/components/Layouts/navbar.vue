@@ -22,6 +22,11 @@
           class="pt-4 bg-white text-base text-gray-700 md:flex content-center md:justify-between md:pt-0"
         >
           <li>
+            <router-link class="md:p-4 py-2 block hover:text-purple-400" to="/about">
+              About
+            </router-link>
+          </li>
+          <li>
             <router-link class="md:p-4 py-2 block hover:text-purple-400" to="/myblog">
               My blogs
             </router-link>
@@ -65,6 +70,11 @@
           v-show="!user"
           class="pt-4 bg-white text-base text-gray-700 md:flex content-center md:justify-between md:pt-0"
         >
+          <li>
+            <router-link class="md:p-4 py-2 block hover:text-purple-400" to="/about">
+              About
+            </router-link>
+          </li>
           <li class="content-center">
             <GoogleSignIn :setUser="setUser" />
           </li>
