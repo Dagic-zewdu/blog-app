@@ -63,6 +63,12 @@
 
         <div class="flex justify-between w-full px-3">
           <button
+            class="shadow bg-red-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
+            type="reset"
+          >
+            Reset
+          </button>
+          <button
             class="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
             type="submit"
           >
@@ -77,7 +83,7 @@
 </template>
 
 <script>
-import { addBlog } from '../../api/blog/blog.api';
+import { addBlog, editBlog } from '../../api/blog/blog.api';
 export default {
   name: 'Form',
   props: {
@@ -97,11 +103,11 @@ export default {
   methods: {
     async handleSubmit(e) {
       e.preventDefault();
-      if (this.id) {
-      } else {
-        try {
-          this.saving = true;
-          await addBlog({
+      try {
+        this.saving = true;
+        if (this.id) {
+          await editBlog(this.id, {
+            date: Date.now(),
             author: this.author,
             post: this.post,
             title: this.title,
@@ -109,13 +115,29 @@ export default {
           });
           this.saving = false;
           this.success = 'Saved successfully';
-          this.post = '';
-          this.title = '';
-          this.image = '';
           setTimeout(() => {
             this.success = false;
           }, [3000]);
-        } catch (err) {}
+        } else {
+          console.log('add me');
+          let res = await addBlog({
+            author: this.author,
+            post: this.post,
+            title: this.title,
+            image: this.image,
+          });
+
+          this.saving = false;
+          this.error = false;
+          this.success = 'Saved successfully';
+          document.querySelector('form').reset();
+          setTimeout(() => {
+            this.success = false;
+          }, [3000]);
+        }
+      } catch (err) {
+        this.saving = false;
+        this.error = err.message;
       }
     },
   },

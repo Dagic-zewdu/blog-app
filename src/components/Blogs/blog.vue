@@ -93,6 +93,7 @@
 
 <script>
 import { getAuthor } from '@/auth/auth';
+import { deleteBlog as DeleteBlog } from '@/api/blog/blog.api';
 export default {
   name: 'Blog',
   props: {
@@ -118,7 +119,16 @@ export default {
     this.suspense = false;
   },
   methods: {
-    async deleteBlog() {},
+    async deleteBlog() {
+      try {
+        if (confirm('Are you sure you wan to delete this blog?')) {
+          await DeleteBlog(this.blog.id);
+          location.reload();
+        }
+      } catch (err) {
+        console.log(err);
+      }
+    },
   },
 };
 </script>

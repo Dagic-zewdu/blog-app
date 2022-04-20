@@ -67,7 +67,6 @@ export default {
       this.blog = blog;
       this.author = author;
       this.author_blog = blogs.filter((blog) => blog.author === author.id && blog.id != this.id);
-      console.log(blogs, this.id);
       this.loading = false;
     } catch (err) {
       console.log(err);

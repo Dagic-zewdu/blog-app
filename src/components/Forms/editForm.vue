@@ -32,6 +32,7 @@ export default {
     try {
       this.loading = true;
       this.blog = await getBlog(this.id);
+      this.loading = false;
     } catch (err) {
       this.error = err.message;
     }
