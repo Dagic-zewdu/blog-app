@@ -2978,6 +2978,11 @@ csstype@^2.6.8:
   resolved "https://registry.npmmirror.com/csstype/-/csstype-2.6.20.tgz#9229c65ea0b260cf4d3d997cb06288e36a8d6dda"
   integrity sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==
 
+date-fns@^2.27.0:
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
+  integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
+
 debug@*, debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.3:
   version "4.3.4"
   resolved "https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
@@ -7202,6 +7207,13 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.npmmirror.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
+
+vue-timeago3@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/vue-timeago3/-/vue-timeago3-2.1.2.tgz#08564cc1913954e4cdc53a10dbaea433c0a4a3a4"
+  integrity sha512-4u4m+7kDxECnBJIoVpcf23ai0rPI+g1U2jHkcc+7Gz+tkQjR+ADR6TMx0wUbRhEAimOTPLegT8fw8aSbF1+MKQ==
+  dependencies:
+    date-fns "^2.27.0"
 
 vue3-google-oauth2@^1.0.6:
   version "1.0.6"

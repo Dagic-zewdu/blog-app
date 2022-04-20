@@ -20,6 +20,7 @@
     "tailwindcss": "^3",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
+    "vue-timeago3": "^2.1.2",
     "vue3-google-oauth2": "^1.0.6"
   },
   "devDependencies": {

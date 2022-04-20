@@ -1,7 +1,7 @@
 <template>
   <Spinner v-if="loading" />
   <div class="error" v-else-if="error && !loading">
-    <h1 class="text-4xl">{{ err }}</h1>
+    <h1 class="text-4xl">{{ error }}</h1>
   </div>
   <slot v-else />
 </template>

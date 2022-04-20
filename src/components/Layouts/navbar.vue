@@ -8,7 +8,7 @@
           <h1 class="text-4xl">
             <i class="fa-solid fa-pen-to-square"></i>
 
-            Blog<b>It</b>
+            <n class="text-indigo-600">Blog</n><b>It</b>
           </h1>
         </router-link>
       </div>

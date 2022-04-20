@@ -5,7 +5,7 @@
         <i class="fa-solid fa-pen-to-square"></i>
       </p>
       <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
-        Blog app <span class="text-indigo-600">Write your feeling</span>
+        BlogIt <span class="text-indigo-600">Write your feeling</span>
       </h3>
     </div>
 
@@ -47,7 +47,7 @@
             class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
             for="grid-password"
           >
-            Your Message
+            Say something
           </label>
           <textarea
             rows="10"

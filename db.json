@@ -6,6 +6,13 @@
             "name": "Dagi Zewdu",
             "image": "https://lh3.googleusercontent.com/a-/AOh14GgWjckrgquHG9_oi5lNUluaAwftovFgByV21c29Sw=s96-c",
             "date": 1650381324990
+        },
+        {
+            "id": "108546584508410538909",
+            "email": "amenzewdu46@gmail.com",
+            "name": "upper Tech",
+            "image": "https://lh3.googleusercontent.com/a-/AOh14Ghz3dvy97WLkXmNTJIJYVB4gl9HEaErbIV1h0GQ=s96-c",
+            "date": 1650434849314
         }
     ],
     "blogs": [
@@ -24,6 +31,22 @@
             "image": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2016/04/ethiopia-matthew-goulding.jpg",
             "date": 1650396222012,
             "id": 2
+        },
+        {
+            "author": "108546584508410538909",
+            "post": "The useId is a new hook introduced in React 18. The useId hook helps generate a unique Id on both the client-side and server-side.\nThe previous one was called the useOpaqueIdentifierhook in React. The useOpaqueIdentifierhook had many bugs and limitations, so the useId hook was delayed.\nIn React 18, all the issues were resolved correctly, and the React team introduced the useOpaqueIdentifierhook with the new name useId.\n",
+            "title": "An Introduction to the useId() Hook in React 18",
+            "image": "https://miro.medium.com/max/700/1*LXjssF_Tu9RTtd88--7LAg.png",
+            "date": 1650435070584,
+            "id": 3
+        },
+        {
+            "author": "108546584508410538909",
+            "post": "The Tronsmart Bang is a large speaker. With 60W of power and a promised 15 hours of battery, there’s a lot that they needed to cram into this housing.\n\nIt’s not extremely heavy, but it’s certainly not lightweight. The handle makes it easy to pick up and carry around, and it’s portable enough that it won’t be a struggle to carry it somewhere or out to a pool. There’s an included carrying strap, too, which helps a lot.\n\nYou’ll get two large passive radiators on the sides of the speaker to drive some extra low end thump, and a plastic flap to cover up all the ports to maintain the IPX6 waterproofing on the entire speaker. The buttons on the top of the chassis are large, easy to press, and easy to see, and there’s an LED light strip running along the bottom of the speaker and inside the ends near the passive radiators.\nLoud sound\nIf there’s one word to describe the Bang’s sound profile, it’s loud. Just straight up loud.\n\nWith a 60W power rating, that’s considerably more than the flimsy 2W speakers on your laptop or phone, and three times more oomph than a comparably priced 20W JBL Flip 5 speaker, which is also not a quiet speaker\nLoud sound\nIf there’s one word to describe the Bang’s sound profile, it’s loud. Just straight up loud.\n\nWith a 60W power rating, that’s considerably more than the flimsy 2W speakers on your laptop or phone, and three times more oomph than a comparably priced 20W JBL Flip 5 speaker, which is also not a quiet speaker",
+            "title": "Tronsmart Bang party speaker review: Just as loud as you’d expect",
+            "image": "https://i0.wp.com/img.talkandroid.com/uploads/2022/04/tronsmart_bang_speaker_TA_0000-scaled.jpg?resize=847%2C635&ssl=1",
+            "date": 1650435070584,
+            "id": 4
         }
     ]
 }

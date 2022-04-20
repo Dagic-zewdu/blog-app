@@ -1,5 +1,5 @@
 import About from '../views/About.vue'
-import BlogDetails from '../views/blogDetails.vue'
+import BlogDetails from '../components/Blogs/blogDetails.vue'
 import Interactions from '../views/interactions.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
