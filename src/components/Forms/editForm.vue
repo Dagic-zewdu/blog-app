@@ -31,8 +31,19 @@ export default {
   async created() {
     try {
       this.loading = true;
-      this.blog = await getBlog(this.id);
-      this.loading = false;
+      const blog = await getBlog(this.id);
+      if (sessionStorage.getItem('id')) {
+        if (sessionStorage.getItem('id') == blog.author) {
+          this.blog = blog;
+          this.loading = false;
+        } else {
+          this.blog = false;
+          this.loading = false;
+        }
+      } else {
+        this.blog = false;
+        this.loading = false;
+      }
     } catch (err) {
       this.loading = false;
       console.log(err);

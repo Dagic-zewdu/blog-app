@@ -59,25 +59,35 @@ export default {
       author_blog: [],
     };
   },
-  async created() {
-    try {
-      const blog = await getBlog(this.id);
-      const blogs = await getBlogs();
-      const author = await getAuthor(blog.author);
-      this.blog = blog;
-      this.author = author;
-      this.author_blog = blogs.filter((blog) => blog.author === author.id && blog.id != this.id);
-      this.loading = false;
-    } catch (err) {
-      console.log(err);
-      this.loading = false;
-      this.error = err.message;
-    }
+  methods: {
+    async setBlog(id) {
+      try {
+        const blog = await getBlog(id ? id : this.id);
+        const blogs = await getBlogs();
+        const author = await getAuthor(blog.author);
+        this.blog = blog;
+        this.author = author;
+        this.author_blog = blogs.filter((blog) => blog.author === author.id && blog.id != this.id);
+        this.loading = false;
+      } catch (err) {
+        console.log(err);
+        this.loading = false;
+        this.error = err.message;
+      }
+    },
   },
-  updated() {
-    window.scrollTo(0, 0);
+  created() {
+    this.setBlog();
+  },
+  watch: {
+    '$route.params.id': function (id) {
+      window.scrollTo(0, 0);
+      this.id = id;
+      this.setBlog(id);
+    },
   },
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+</style>
