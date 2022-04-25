@@ -114,6 +114,11 @@ export default {
   async created() {
     this.user = await getAuthor();
   },
+  watch: {
+    '$route.name': function (route) {
+      window.scrollTo(0, 0);
+    },
+  },
 };
 </script>
 

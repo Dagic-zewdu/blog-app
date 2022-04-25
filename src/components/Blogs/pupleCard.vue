@@ -34,7 +34,6 @@ export default {
   },
   async created() {
     const author = await getAuthor(this.blog.author);
-    console.log(author);
     this.author = author;
     this.user = await getAuthor();
     this.date = new Date(this.blog.date).toUTCString().slice(0, 16);
