@@ -1,4 +1,4 @@
-# COVID-19 Data TRACKER
+# BlogIt
 
 > This is Covid-19 data that shows for each country.You can search your country and know its statistics .
 > ![ screenshot](dist/assets/screen-shot.png)
