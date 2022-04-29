@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-- [Live Demo Link](https://almondine-sideways-telephone.glitch.me/writeblog)
+- [Live Demo Link](https://almondine-sideways-telephone.glitch.me)
 
 ## Available Scripts
 
