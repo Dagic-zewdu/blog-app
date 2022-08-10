@@ -1,6 +1,6 @@
 # BlogIt
 
-
+![screenshot](https://media-exp1.licdn.com/dms/image/sync/C4E27AQFKiQWPkTgKlA/articleshare-shrink_800/0/1660041872992?e=1660744800&v=beta&t=ILn1efgB0M5i3Zwfaeadn2-oP4RoyrdAqv1SxDHhPlM)
 ## Built With
 
 - Vue
