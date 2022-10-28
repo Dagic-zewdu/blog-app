@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "backend": "json-server --watch db.json --port 5000",
     "dev": "npm run dev",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "autoprefixer": "^10",
