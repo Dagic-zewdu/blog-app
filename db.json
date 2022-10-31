@@ -97,5 +97,18 @@
         }
     ],
     "documents":[],
-    "types":[]
+    "types":[
+        {
+            "value": "Id",
+            "id": 1
+        },
+        {
+            "value": "Passport",
+            "id": 2
+        },
+        {
+            "value": "Driver License",
+            "id": 3
+        }
+    ]
 }
